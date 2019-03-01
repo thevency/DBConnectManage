@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Extent Report Suites">
+  <test name="REPORT MODULE B" parallel="methods" thread-count="2">
+    <classes>
+      <class name="testConnection1" />
+      <class name="testConnection2"/>
+      <class name="testConnection3"/>
+      <class name="testConnection4"/>
+    </classes>
+  </test>
+</suite> <!-- Default suite -->
